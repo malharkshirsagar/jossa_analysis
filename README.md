@@ -41,17 +41,14 @@ An end-to-end data engineering pipeline built in Python to process, structure, c
 Place your round-wise raw CSV files (e.g., 2026_round_1.csv through 2026_round_5.csv) in the project root directory.
 
 Step 1: Build the Wide Master Dataset (Merges multi-round data using full outer joins):
-
-Bash
 python master_wide.py
+
 Step 2: Cross-Verify Data Integrity (Audits records against raw round files):
-
-Bash
 python cross_ver.py
-Step 3: Generate Analytical Metrics & Reports (Computes expansions, stability trends, and tiers):
 
-Bash
+Step 3: Generate Analytical Metrics & Reports (Computes expansions, stability trends, and tiers):
 python 3.py
+
 ---
 ##   Output Structure
 The pipeline generates clean, production-ready assets:

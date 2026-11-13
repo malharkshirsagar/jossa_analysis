@@ -33,8 +33,8 @@ An end-to-end data engineering pipeline built in Python to process, structure, c
 
 2. Install the required dependencies:
 
-Bash
-pip install -r requirements.txt
+    ```Bash
+     pip install -r requirements.txt
 ---
 ##   Usage Workflow
 
